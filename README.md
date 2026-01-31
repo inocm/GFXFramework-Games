@@ -7,5 +7,5 @@ The following projects were developed using GFXFramework (a lightweight OpenGL-b
 **Player 1:** - Up/Down – Move the mesh up/down.  
 **Player 2:** - W/S – Move the the mesh up/down.
 
-!(calea/catre/imagine.png)
+!(drag_and_drop_tema_1.gif)
 
