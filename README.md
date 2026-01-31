@@ -1,8 +1,4 @@
-# GFXFramework-Games
-Some games created with GFXFramework, a lightweight graphics framework built on OpenGL.
-=======
-# GFX Framework
-
+# Projects with GFXFramework
 ## :sparkles: Introduction
 
 This project is a tiny graphics framework used by the Computer Graphics Department of the Polytechnic University of Bucharest.
