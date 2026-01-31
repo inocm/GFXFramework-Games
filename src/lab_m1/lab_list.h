@@ -9,8 +9,8 @@
 #include "lab_m1/lab6/lab6.h" 
 #include "lab_m1/lab7/lab7.h"
 #include "lab_m1/lab8/lab8.h"
-#include "lab_m1/lab9/lab9.h"
+#include "lab_m1/lab9/lab9.h"  
 #include "lab_m1/Tema1/Tema1.h"
-#include "lab_m1/Tema2/Tema2.h"
+//#include "lab_m1/Tema2/Tema2.h"
 
 

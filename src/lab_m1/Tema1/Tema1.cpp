@@ -1136,6 +1136,62 @@ bool Tema1::CheckBumperCollision(const glm::vec2& ballPos, float radius, const B
     return (dx * dx + dy * dy) < (radius * radius);
 }
 
+Mesh* CreateRectangle(
+    const std::string& name,
+    glm::vec3 leftBottomCorner,
+    float width,
+    float height,
+    glm::vec3 color,
+    bool fill)
+{
+    glm::vec3 corner = leftBottomCorner;
+
+    std::vector<VertexFormat> vertices = {
+        VertexFormat(corner, color),
+        VertexFormat(corner + glm::vec3(width, 0, 0), color),
+        VertexFormat(corner + glm::vec3(width, height, 0), color),
+        VertexFormat(corner + glm::vec3(0, height, 0), color)
+    };
+
+    Mesh* rectangle = new Mesh(name);
+    std::vector<unsigned int> indices = { 0, 1, 2, 3 };
+
+    if (!fill) {
+        rectangle->SetDrawMode(GL_LINE_LOOP); // doar contur
+    }
+    else {
+        indices.push_back(0);
+        indices.push_back(2); // douã triunghiuri pentru interior
+    }
+
+    rectangle->InitFromData(vertices, indices);
+    return rectangle;
+}
+
+Mesh* CreateSemiCircle(const std::string& name, glm::vec2 center, float radius, int segments, glm::vec3 color) {
+    std::vector<VertexFormat> vertices;
+    std::vector<unsigned int> indices;
+
+    vertices.push_back(VertexFormat(glm::vec3(center.x, center.y, 0), color));
+
+    for (int i = 0; i <= segments; i++) {
+        float angle = glm::pi<float>() * i / segments;
+        float x = center.x + radius * cos(angle);
+        float y = center.y + radius * sin(angle);
+        vertices.push_back(VertexFormat(glm::vec3(x, y, 0), color));
+    }
+
+    for (int i = 1; i <= segments; i++) {
+        indices.push_back(0);
+        indices.push_back(i);
+        indices.push_back(i + 1);
+    }
+
+    Mesh* semicircle = new Mesh(name);
+    semicircle->InitFromData(vertices, indices);
+    return semicircle;
+}
+
 
 
 

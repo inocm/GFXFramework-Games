@@ -112,6 +112,10 @@ namespace m1
         bool Tema1::CircleAABBIntersect(glm::vec2 circlePos, float ballRadius, glm::vec2 aabbCenter, float aabbWidth, float aabbHeight);
         void Tema1::ResetBall();
         bool Tema1::CheckBumperCollision(const glm::vec2& ballPos, float radius, const Block& bumper);
+
+        Mesh* CreateSquare(const std::string& name, glm::vec3 leftBottomCorner, float length, glm::vec3 color, bool fill = false);
+        Mesh* CreateRectangle(const std::string& name, glm::vec3 leftBottomCorner, float width, float height, glm::vec3 color, bool fill);
+        Mesh* CreateSemiCircle(const std::string& name, glm::vec2 center, float radius, int segments, glm::vec3 color);
          
     };
 }   // namespace m1
