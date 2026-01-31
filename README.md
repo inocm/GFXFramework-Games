@@ -9,7 +9,7 @@ In this game, the player is creating his own **paddle** in the game editor. The 
 **Player 1:** - Up/Down – Move the mesh up/down;  
 **Player 2:** - W/S – Move the the mesh up/down;  
 
-**Model editor:**   
+**Paddle editor:**   
 ![Demo](drag_and_drop_tema_1.gif)  
 
 **Actual game:**   
@@ -23,4 +23,5 @@ In this game, the player **controls a handcar** and fixes railway segments that 
 **- W/S** – Move handcar forward, backward;  
 **- F** - Repair rails;  
 
+**Actual game:**
 ![Demo](tema2egc.png)  
