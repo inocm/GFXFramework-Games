@@ -16,3 +16,4 @@ The following projects were developed using GFXFramework (a lightweight OpenGL-b
 **Controls:**  
 **- W/S** – Move handcar forward, backward;
 **- F** - Repair rails;
+![Demo](tema2egc)  
