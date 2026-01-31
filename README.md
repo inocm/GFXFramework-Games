@@ -1,5 +1,6 @@
 # Projects with GFXFramework
 The following projects were developed using GFXFramework (a lightweight OpenGL-based engine) for the 'Elements of Computer Graphics' course at UPB. While the framework handled the initial rendering setup, I independently implemented the 2D/3D graphics logic and core gameplay mechanics for each application
+---
 
 This project is a tiny graphics framework used by the Computer Graphics Department of the Polytechnic University of Bucharest.
 It is currently used as teaching and study material for a number of courses of increasing complexity, including, but not limited to:
