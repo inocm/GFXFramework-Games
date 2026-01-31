@@ -3,7 +3,7 @@ The following projects were developed using GFXFramework (a lightweight OpenGL-b
 
 ### 1. Pong
 
-**Controls:**
+**Controls:**  
 **Player 1:** - Up/Down – Move the mesh up/down.  
 **Player 2:** - W/S – Move the the mesh up/down.
 
