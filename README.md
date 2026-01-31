@@ -8,8 +8,8 @@ The following projects were developed using GFXFramework (a lightweight OpenGL-b
 - **Up/Down** – Move the mesh up/down.  
 **Player 2:**  
 - **W/S** – Move the the mesh up/down.  
-**Model editor:**  
-![Demo](drag_and_drop_tema_1.gif)   
+**Model editor:** 
+![Demo](drag_and_drop_tema_1.gif)  
 **Actual game:**   
 ![Demo](fd2b94227cb6968d7850c45cd3ccaba661ca3732.gif)   
 
