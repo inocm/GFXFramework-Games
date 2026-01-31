@@ -4,10 +4,6 @@ The following projects were developed using GFXFramework (a lightweight OpenGL-b
 ### 1. Pong
 
 **Controls:**
-Player 1: - A/D – Move the tank left/right.
-- W/S – Adjust the turret angle.
-- Spacebar – Fire projectile.
-Player 2: - Left/Right Arrow – Move the tank left/right.
-- Up/Down Arrow – Adjust the turret angle.
-- Enter – Fire projectile.
+**Player 1:** - Up/Down – Move the mesh up/down.
+**Player 2:** - W/S – Move the the mesh up/down.
 
