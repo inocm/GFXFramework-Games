@@ -15,7 +15,7 @@ The following projects were developed using GFXFramework (a lightweight OpenGL-b
 
 ### 2. Railway Maintenance
 
-In this game, the player **controls a handcar** and fixes railway segments that are breaking down at a 10 seconds interval.
+In this game, the player **controls a handcar** and fixes railway segments that are breaking down at time interval. The game is over when more than 50% of the railway is broken.
 
 **Controls:**  
 **- W/S** – Move handcar forward, backward;  
